@@ -2,10 +2,10 @@
 
 case "$1" in
     start)
-        aesdchar_load
+        /usr/bin/aesdchar_load
         ;;
     stop)
-        aesdchar_unload
+        /usr/bin/aesdchar_unload
         ;;
 esac
 
